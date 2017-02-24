@@ -237,6 +237,7 @@ header {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
+  /*filter: grayscale(100%) brightness(30%);*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -740,7 +741,7 @@ ul.social-buttons li a:active {
 }
 ::selection {
   text-shadow: none;
-  background: #fed136;
+  background: #ff8533;
 }
 img::selection {
   background: transparent;
@@ -750,4 +751,8 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #fed136;
+}
+
+.logos {
+  /*height: 100px;*/
 }
