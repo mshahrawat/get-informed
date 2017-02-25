@@ -57,6 +57,7 @@ h6 {
 .img-centered {
   margin: 0 auto;
 }
+
 .bg-light-gray {
   background-color: #eeeeee;
 }
@@ -764,4 +765,6 @@ body {
 .logos {
   /*height: 100px;*/
   filter: grayscale(90%);
+  width: 50%;
 }
+
