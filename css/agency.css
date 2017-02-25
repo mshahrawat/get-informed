@@ -755,4 +755,5 @@ body {
 
 .logos {
   /*height: 100px;*/
+  filter: grayscale(90%);
 }
