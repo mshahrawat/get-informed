@@ -238,7 +238,11 @@ header {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  /*filter: grayscale(100%) brightness(30%);*/
+/*    filter: brightness(30%);*/
+    background-color: rgba(0,0,0, 0.6);
+/*    background-color: hsla(0, 0%, 100%, 0.5);*/
+    background-blend-mode: multiply;
+/*  filter: grayscale(100%) brightness(30%);*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -246,22 +250,24 @@ header {
   text-align: center;
   color: white;
 }
+
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
 }
 header .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
+/*  font-style: italic;*/
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
 }
 header .intro-text .intro-heading {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+/*  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: "Hind Madurai", "Helvetica Neue", Helvetica, Arial, cursive;
+/*  text-transform: uppercase;*/
   font-weight: 700;
-  font-size: 50px;
+  font-size: 60px;
   line-height: 50px;
   margin-bottom: 25px;
 }
@@ -273,15 +279,16 @@ header .intro-text .intro-heading {
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
-    font-size: 40px;
+    font-size: 36px;
     line-height: 40px;
     margin-bottom: 25px;
   }
   header .intro-text .intro-heading {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
+/*    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+/*    text-transform: uppercase;*/
+    font-family: "Hind Madurai", "Helvetica Neue", Helvetica, Arial, cursive;
     font-weight: 700;
-    font-size: 75px;
+    font-size: 110px;
     line-height: 75px;
     margin-bottom: 50px;
   }
